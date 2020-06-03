@@ -8,4 +8,5 @@ Go to portal.azure.com
 1. Table
    - Partition key
    - Row key
+1. [Coding](/devops-training.wiki/Storage/work.md)
    

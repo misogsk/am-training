@@ -8,4 +8,7 @@
    -Timer
 1. Dependency Injection in functions
 1. Configuration
+1. [Coding](/devops-training.wiki/Azure-function/work.md)
+
+
 
