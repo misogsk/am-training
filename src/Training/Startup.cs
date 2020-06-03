@@ -1,4 +1,5 @@
 ﻿using Microsoft.Azure.Functions.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,7 +11,12 @@ namespace Training
     {
         public override void Configure(IFunctionsHostBuilder builder)
         {
-            throw new NotImplementedException();
+            var config = new ConfigurationBuilder().
+                SetBasePath(Environment.CurrentDirectory).
+                AddJsonFile("local.app.settings").
+                AddEnvironmentVariables().
+                Build();
+                
         }
     }
 }
