@@ -2,7 +2,7 @@
 
 Azure overview
 
-[Storage](/Storage.md)
+[Storage](/devops-training.wiki/Storage.md)
 
 [Functions](/devops-training.wiki/Azure-function)
 
