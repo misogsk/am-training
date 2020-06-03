@@ -2,14 +2,14 @@
 
 Azure overview
 
-[Storage](/Storage)
+[Storage](/devops-training.wiki/Storage)
 
-[Functions](/Azure-function)
+[Functions](/devops-training.wiki/Azure-function)
 
-[WebApp](/Web-App)
+[WebApp](/devops-training.wiki/Web-App)
 
-[Service Bus](/Service-Bus)
+[Service Bus](/devops-training.wiki/Service-Bus)
 
-[Application Insights](/Application-Insights)
+[Application Insights](/devops-training.wiki/Application-Insights)
 
 
