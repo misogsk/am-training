@@ -13,7 +13,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Functions.Training
 {
-    public  class CreateFileFunction
+    public class CreateFileFunction
     {
         private readonly IConfigurationRoot root;
         public CreateFileFunction(IConfigurationRoot configurationRoot)
@@ -36,7 +36,6 @@ namespace Functions.Training
             if (string.IsNullOrEmpty(fileName))
             {
                 responseMessage = "No file name in body";
-
             }
             responseMessage = string.IsNullOrEmpty(fileName)
                 ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."

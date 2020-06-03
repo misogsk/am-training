@@ -1,5 +1,6 @@
 ﻿using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,7 +14,7 @@ namespace Training
         {
             var config = new ConfigurationBuilder().
                 SetBasePath(Environment.CurrentDirectory).
-                AddJsonFile("local.app.settings").
+                AddJsonFile("local.settings.json").
                 AddEnvironmentVariables().
                 Build();
                 
