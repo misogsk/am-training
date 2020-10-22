@@ -3,3 +3,6 @@
 ################################################################################
 
 /src/.vs/Training/v16
+/src/.vs/Training
+/src/MessageGenerator/obj
+/src/Training/Properties/PublishProfiles/mgtrain - Zip Deploy.pubxml
